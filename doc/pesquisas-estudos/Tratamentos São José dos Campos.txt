@@ -1,0 +1,84 @@
+ Procedimentos hospitalares do SUS - por local de internação - São Paulo																					
+AIH aprovadas por Ano/mês processamento e Forma organização																					
+Município: 354990 SAO JOSE DOS CAMPOS																					
+Forma organização: 030301 Tratamento de doenças infecciosas e parasitárias, 030302 Tratamento de doenças do sangue, orgãos hematopoéticos e alguns transtornos imunitários, 030303 Tratamento de doenças endocrinas, metabólicas e nutricionais, 030304 Tratamento de doenças do sistema nervoso central e periférico, 030305 Tratamento de doenças do aparelho da visão, 030306 Tratamento de doenças cardiovasculares, 030307 Tratamento de doenças do aparelho digestivo, 030308 Tratamento de doenças da pele e do tecido  subcutâneo, 030309 Tratamento de doenças do sistema osteomuscular e do tecido conjuntivo, 030310 Tratamento durante a gestação, parto e puerpério, 030311 Tratamento de malformações congênitas, deformidades e anomalias cromossômicas, 030312 Tratamentos por medicina nuclear in vivo, 030313 Tratamento de pacientes sob cuidados prolongados, 030314 Tratamento de doenças do ouvido/apófise mastóide e vias aéreas, 030315 Tratamento das doenças do aparelho geniturinário, 030316 Tratamento de algumas afecçõess originadas no período neonatal, 030317 Tratamento dos transtornos mentais e comportamentais, 030318 Tratamento HIV/Aids, 030501 Tratamento dialítico, 030502 Tratamento em nefrologia em geral, 040305 Tratamento neurocirúrgico da dor funcional, 040307 Tratamento neuro-endovascular, 041301 Tratamento de queimados, 060440 Medicamentos para tratamento da hipercalemia e hiperfosfatemia, 060459 Retinóides para tratamento da acne, 060460 Retinóides para tratamento da psoríase																					
+Período:2018-2022																					
+Ano/mês processamento	030301 Tratamento de doenças infecciosas e parasitárias	030302 Tratamento de doenças do sangue, orgãos hematopoéticos e alguns transtornos imunitários	030303 Tratamento de doenças endocrinas, metabólicas e nutricionais	030304 Tratamento de doenças do sistema nervoso central e periférico	030305 Tratamento de doenças do aparelho da visão	030306 Tratamento de doenças cardiovasculares	030307 Tratamento de doenças do aparelho digestivo	030308 Tratamento de doenças da pele e do tecido  subcutâneo	030309 Tratamento de doenças do sistema osteomuscular e do tecido conjuntivo	030310 Tratamento durante a gestação, parto e puerpério	030311 Tratamento de malformações congênitas, deformidades e anomalias cromossômicas	030314 Tratamento de doenças do ouvido/apófise mastóide e vias aéreas	030315 Tratamento das doenças do aparelho geniturinário	030316 Tratamento de algumas afecçõess originadas no período neonatal	030317 Tratamento dos transtornos mentais e comportamentais	030318 Tratamento HIV/Aids	030501 Tratamento dialítico	030502 Tratamento em nefrologia em geral	040305 Tratamento neurocirúrgico da dor funcional	041301 Tratamento de queimados	Total
+2018	784	243	327	1459	6	2412	1333	372	46	701	48	2962	557	768	1405	122	11	761	10	97	14424
+..Janeiro/2018	38	22	22	90	-	193	103	37	3	69	2	180	40	54	114	11	-	85	1	9	1073
+..Fevereiro/2018	72	29	23	119	-	177	104	35	4	62	8	149	46	64	95	3	2	64	1	9	1066
+..Março/2018	63	16	28	99	-	201	108	33	7	66	6	168	47	57	111	9	-	72	-	12	1103
+..Abril/2018	62	16	30	110	-	162	103	28	3	46	3	192	32	81	111	12	-	54	-	12	1057
+..Maio/2018	64	22	28	111	-	198	120	26	-	69	1	298	43	62	115	10	-	53	-	7	1227
+..Junho/2018	48	15	22	146	1	141	94	23	3	59	5	325	50	59	110	10	-	66	1	8	1186
+..Julho/2018	68	13	28	138	1	194	94	23	6	51	4	365	54	64	118	12	-	66	1	5	1305
+..Agosto/2018	65	27	26	144	-	190	111	33	1	61	4	303	55	66	130	15	8	71	-	8	1318
+..Setembro/2018	63	22	29	133	1	189	106	36	3	55	4	226	39	75	107	9	-	59	-	9	1165
+..Outubro/2018	91	18	22	134	-	247	130	26	6	58	4	270	52	57	104	13	-	65	3	9	1309
+..Novembro/2018	80	21	31	109	2	267	149	42	5	59	5	258	55	69	113	9	-	52	2	5	1333
+..Dezembro/2018	70	22	38	126	1	253	111	30	5	46	2	228	44	60	177	9	1	54	1	4	1282
+2019	1124	303	321	1326	15	3036	1900	427	54	605	45	2975	962	742	1656	170	16	569	11	74	16331
+..Janeiro/2019	74	23	22	89	2	191	129	36	4	52	5	202	56	52	125	12	-	51	1	9	1135
+..Fevereiro/2019	82	17	27	102	3	205	155	56	4	36	7	143	51	48	129	13	-	58	1	6	1143
+..Março/2019	95	25	23	131	1	247	128	39	6	38	6	192	68	50	139	19	1	41	-	11	1260
+..Abril/2019	84	15	15	98	2	297	153	38	6	36	4	267	65	52	134	19	-	60	-	6	1351
+..Maio/2019	80	21	21	112	2	226	120	27	3	41	4	286	79	61	143	12	1	48	2	7	1296
+..Junho/2019	97	22	23	99	-	245	161	31	5	34	2	279	88	50	143	5	2	29	1	3	1319
+..Julho/2019	107	27	28	112	1	270	185	26	6	53	2	300	100	84	128	14	3	34	2	3	1485
+..Agosto/2019	94	37	41	108	-	318	209	34	2	50	2	329	121	92	150	16	3	51	-	4	1661
+..Setembro/2019	105	23	25	114	1	267	174	48	4	77	3	280	64	67	143	9	-	48	1	2	1455
+..Outubro/2019	117	37	41	120	3	261	170	29	4	66	4	260	83	71	139	17	2	60	1	11	1496
+..Novembro/2019	85	30	27	100	-	233	172	29	7	62	3	213	83	46	141	20	2	38	1	6	1298
+..Dezembro/2019	104	26	28	141	-	276	144	34	3	60	3	224	104	69	142	14	2	51	1	6	1432
+2020	1994	290	317	1410	12	2735	1452	264	23	474	59	2129	790	813	1345	140	23	510	12	88	14880
+..Janeiro/2020	97	23	21	119	1	254	180	36	2	60	9	168	90	73	139	14	-	44	2	9	1341
+..Fevereiro/2020	77	33	37	122	-	282	169	20	1	41	5	179	77	77	148	7	3	43	-	7	1328
+..Março/2020	93	35	28	148	2	271	152	29	3	61	5	179	77	54	134	12	-	42	2	10	1337
+..Abril/2020	81	22	25	83	-	185	84	13	-	28	4	146	61	82	97	16	2	29	-	8	966
+..Maio/2020	100	21	25	109	1	216	85	17	2	31	6	173	65	110	109	3	1	46	-	9	1129
+..Junho/2020	193	20	28	130	1	250	90	14	4	36	3	227	49	72	97	11	-	35	-	5	1265
+..Julho/2020	199	19	21	111	2	182	67	31	1	34	1	174	59	69	97	14	4	38	-	6	1129
+..Agosto/2020	324	30	34	115	2	231	98	21	1	36	5	231	58	56	102	14	5	46	-	5	1414
+..Setembro/2020	339	32	26	109	1	242	119	17	2	39	5	193	67	56	102	15	-	38	1	4	1407
+..Outubro/2020	166	18	21	122	1	209	142	21	4	35	6	167	68	68	100	15	5	44	4	11	1227
+..Novembro/2020	176	17	27	129	-	220	143	25	1	49	8	181	64	45	109	14	3	54	1	6	1272
+..Dezembro/2020	149	20	24	113	1	193	123	20	2	24	2	111	55	51	111	5	-	51	2	8	1065
+2021	4015	310	397	1389	11	2384	1367	269	35	507	34	2326	860	679	1463	111	18	518	10	86	16789
+  Janeiro/2021	382	26	42	129	1	204	121	22	1	35	7	168	70	70	98	6	1	46	-	11	1440
+  Fevereiro/2021	331	17	31	96	1	160	75	21	4	26	3	151	67	48	107	5	4	33	1	5	1186
+  Março/2021	409	18	32	123	2	156	130	24	5	48	3	172	57	60	125	12	1	43	-	6	1426
+  Abril/2021	644	28	24	98	-	164	117	19	2	31	3	171	66	58	114	9	-	42	-	7	1597
+  Maio/2021	632	28	21	126	3	171	106	31	-	20	3	183	60	59	117	8	3	41	-	7	1619
+  Junho/2021	578	19	34	126	1	153	84	24	4	31	4	191	72	53	122	11	1	35	1	10	1554
+  Julho/2021	332	29	48	112	-	204	95	19	1	34	1	210	75	37	132	9	-	46	2	9	1395
+  Agosto/2021	228	28	26	111	1	201	125	23	3	46	2	222	87	75	131	12	-	39	2	6	1368
+  Setembro/2021	153	37	29	119	1	233	119	25	3	56	5	191	82	70	128	12	2	48	1	6	1320
+  Outubro/2021	129	30	43	117	1	258	137	21	3	57	2	210	80	48	118	6	2	51	3	9	1325
+  Novembro/2021	112	35	35	126	-	255	150	23	2	70	1	230	85	54	138	10	-	55	-	5	1386
+  Dezembro/2021	85	15	32	106	-	225	108	17	7	53	-	227	59	47	133	11	4	39	-	5	1173
+2022	1490	308	442	1607	18	2966	1793	328	52	921	25	3097	930	760	1597	108	28	673	11	73	17227
+..Janeiro/2022	186	31	47	118	1	217	118	22	5	72	1	293	70	57	131	10	9	67	1	7	1463
+..Fevereiro/2022	187	28	31	110	2	208	131	27	8	67	-	204	72	44	130	4	1	68	-	5	1327
+..Março/2022	157	19	45	124	-	264	167	26	7	93	4	247	69	87	137	11	4	54	2	8	1525
+..Abril/2022	104	25	35	115	4	235	133	25	4	69	-	212	67	72	129	10	5	65	2	3	1314
+..Maio/2022	99	38	44	124	1	285	171	34	7	83	1	303	92	80	146	13	-	43	-	4	1568
+..Junho/2022	101	17	29	115	3	244	143	20	2	64	1	257	83	46	135	12	2	37	1	3	1315
+..Julho/2022	150	25	34	138	2	266	162	30	3	79	1	289	84	65	124	8	2	65	-	7	1534
+..Agosto/2022	91	28	34	159	5	229	187	26	2	84	3	290	72	65	129	-	-	55	2	6	1467
+..Setembro/2022	93	23	35	149	-	280	138	28	3	79	2	266	105	70	137	23	-	54	-	8	1493
+..Outubro/2022	90	25	43	183	-	292	164	34	3	64	3	238	82	65	133	9	2	63	1	4	1498
+..Novembro/2022	93	27	26	140	-	224	128	18	3	87	9	233	67	60	134	1	-	54	1	7	1312
+..Dezembro/2022	139	22	39	132	-	222	151	38	5	80	-	265	67	49	132	7	3	48	1	11	1411
+Total	9407	1454	1804	7191	62	13533	7845	1660	210	3208	211	13489	4099	3762	7466	651	96	3031	54	418	79651
+ Fonte: Ministério da Saúde - Sistema de Informações Hospitalares do SUS (SIH/SUS)																					
+ Notas:																					
+ 																					
+ Dados referentes aos últimos seis meses, sujeitos a  atualização.																					
+ A partir do processamento de junho de 2012, houve mudança na classificação da natureza e esfera dos estabelecimentos. Com isso, temos que:																					
+      																					
+"      Até maio de 2012 estas informações estão disponíveis como ""Natureza"" e ""Esfera Administrativa""."																					
+"      De junho de 2012 a outubro de 2015, estão disponíveis tanto como ""Natureza"" e ""Esfera Administrativa"", como ""Natureza Jurídica"" e ""Esfera Jurídica""."																					
+"      A partir de novembro de 2015, estão disponíveis como ""Natureza Jurídica"" e ""Esfera Jurídica""."																					
+      																					
+ 																					
+ Consulte o site da Secretaria Estadual de Saúde para mais informações.																					
