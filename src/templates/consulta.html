@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+
+{% block estilos %}
+    <link rel="stylesheet" href="./static/css/consulta.css">
+{% endblock %}
+
+{% block scripts %}
+    <script src="./static/js/Consulta.js"></script>
+{% endblock %}
+
+{% block conteudo %}
+    <main>
+        <div class="row">
+            <div class="col-1"></div>
+            <form class="col-10" id="filtro" method="POST">
+                <div class="dropdown">
+                    <label for="periodo">Periodo</label>
+                    <select name="periodo" id="periodo" multiple="multiple">
+                    {% for periodo in periodos %}
+                        <option value="{{ periodo }}">{{ periodo }}</option>
+                    {% endfor %}
+                    </select>
+                    <button type="button" onclick="ShowSelect('periodo', this)">Mostrar</button>
+                </div>
+                <div class="dropdown">
+                    <label for="cidade">Cidade</label>
+                    <select name="cidade" id="cidade"  multiple="multiple">
+                    {% for cidade in cidades %}
+                        <option value="{{ cidade.name }}">{{ cidade.value }}</option>
+                    {% endfor %}
+                    </select>
+                    <button type="button" onclick="ShowSelect('cidade', this)">Mostrar</button>
+                </div>
+                <div class="dropdown">
+                    <label for="tipo">Tipo</label>
+                    <select name="tipo" id="tipo" onchange="UpdateSubtipos(this)">
+                    {% for tipo in tipos %}
+                        <option value="{{ tipo.name }}">{{ tipo.value }}</option>
+                    {% endfor %}
+                    </select>
+                </div>
+                <div class="dropdown">
+                    <label for="subtipo">Subtipo</label>
+                    <select name="subtipo" id="subtipo"  multiple="multiple">
+                    {% for subtipo in subtipos %}
+                        {% for sub in subtipo %}
+                            <option value="{{ sub.name }}">{{ sub.value }}</option>
+                        {% endfor %}
+                    {% endfor %}
+                    </select>
+                    <button type="button" onclick="ShowSelect('subtipo', this)">Mostrar</button>
+                </div>
+                <!--<input id="filtro-btn" type="image" src="./static/img/magnifying glass.png">-->
+                <button id="filtro-btn" type="button" onclick="Search()"><img src="./static/img/magnifying glass.png"></button>
+                <button id="filtro-btn" type="button" onclick="window.location.href = 'consulta';"><img src="./static/img/rewind.png"></button>
+            </form>
+            <div class="col-1"></div>
+        </div>
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <!-- PLACEHOLDER GRAPH -->
+                <img class="grafico" src="./static/img/grafico.svg">
+            </div>
+            <!--
+            <div class="col-4">
+                <p>Texto exemplo</p>
+                <p>Texto exemplo</p>
+                <p>Texto exemplo</p>
+            </div>
+            -->
+            <div class="col-2"></div>
+        </div>
+    </main>
+{% endblock %}

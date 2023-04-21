@@ -4,10 +4,11 @@
 ## :mag_right: Índice
 <p style="text-align: center">
     <a href="#sobre">Sobre</a> |
-    <a href="#visão_do_produto">Visão do Produto</a>|
+    <a href="#visão_do_produto">Visão do Produto</a> |
     <a href="#sprints">Sprints</a> |
     <a href="#tecnologias">Tecnologias</a> |
     <a href="#backLog">BackLog</a> | 
+    <a href="#projeto">Projeto</a> | 
     <a href="#equipe">Equipe</a>
 </p>
 
@@ -34,12 +35,12 @@ jornalista este que tem dificuldade em achar informações sobre a COVID longa. 
 
 ## :hourglass_flowing_sand:	Entregas de Sprints
 
-|                         Tag                        |   Entrega  |    Status    |
-|:--------------------------------------------------:|:----------:|:------------:|
-| [Sprint 1](/doc/sprints/sprint1/README_sprint1.md) | 02/04/2023 | Concluído    |
-| Sprint 2                                           | 23/04/2023 | Em andamento |
-| Sprint 3                                           | 14/05/2023 | Pendente     |
-| Sprint 4                                           | 04/06/2023 | Pendente     |
+|                               Tag                               |  Entrega   |    Status    |
+|:---------------------------------------------------------------:|:----------:|:------------:|
+| [Sprint 1](https://github.com/equipedevo/API_1/releases/tag/V1) | 02/04/2023 | Concluído    |
+| [Sprint 2](./doc/sprint/README_sprint.md)                       | 23/04/2023 | Em andamento |
+| Sprint 3                                                        | 14/05/2023 | Pendente     |
+| Sprint 4                                                        | 04/06/2023 | Pendente     |
 
 >Após clicar nos links da área Tag você será redirecionado a página da sprint referente. <br/>
 >Sprint 1: Descrição, MVP, Backlog e Wireframe
@@ -50,21 +51,33 @@ jornalista este que tem dificuldade em achar informações sobre a COVID longa. 
 
 ## 🛠️ Tecnologias
 
-Foram usadas na construção do projeto as seguintes ferramentas:
+Foram usadas na construção do projeto as seguintes ferramentas e linguagens:
 
 - [Figma](http://www.figma.com): Prototipagem
 - [GitHub](https://github.com/): Versionamento e documentação
 - [Jira](https://www.atlassian.com/software/jira): Organização de tarefas
+- [Python](https://www.python.org): Back-End no geral, como ler arquivos csv e gerar os gráficos deles
+- [Flask](https://flask.palletsprojects.com): Utilizado como um servidor web
+- [HTML](https://html.spec.whatwg.org): Estruturação das páginas do site
+- [CSS](https://www.w3.org/Style/CSS/#specs): Estilização do site
 
 → [Voltar ao topo](#topo)
 
 <span id="backLog">
 
-# :scroll:Backlog
-[Backlog do projeto.](/doc/sprints/BacklogCompleto.md) 
+## :scroll:Backlog
+[Backlog do projeto.](./doc/sprint/BacklogCompleto.md) 
 
-[Backlog da 1ª Sprint.](/doc/sprints/sprint1/Backlog_sprint1.md)
+[Backlog da 2ª Sprint.](./doc/sprint/Backlog_sprint.md)
 
+
+→ [Voltar ao topo](#topo)
+
+<span id="projeto">
+
+## :computer:Como executar nosso projeto
+
+Para executar nosso projeto, entre no readme da pasta `src` e siga os passos lá indicados, para isso, basta que você [Clique aqui](https://github.com/equipedevo/API_1/tree/main/src)
 
 → [Voltar ao topo](#topo)
 
