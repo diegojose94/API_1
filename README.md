@@ -26,8 +26,7 @@ Conforme a demanda do 1º API (Aprendizagem por Projetos Integrados) (Abordando 
 
 # :eye: Visão do Produto
 
-Para jornalistas que querem ver os efeitos das sequelas da COVID-19,
-jornalista este que tem dificuldade em achar informações sobre a COVID longa. O CICOVALE (Central Informativa de COVID longa do Vale do Paraíba), é um site que possibilita ver os dados sobre o impacto da COVID longa a partir de fontes públicas do Sistema Único de Saúde. Diferentemente de outras pesquisas relacionadas, o nosso produto possibilita a facilidade e interatividade da visão sobre os dados da COVID longa.
+Para jornalistas que desejam ver os efeitos das sequelas da COVID-19 e encontram dificuldades em achar informações sobre a COVID longa. O CICOVALE (Central Informativa de COVID longa do Vale do Paraíba) é um site que possibilita ver e comparar dados sobre o impacto da COVID longa através de fontes públicas do Sistema Único de Saúde(SUS). Diferentemente de outras pesquisas relacionadas, o nosso produto possibilita a facilidade e interatividade da visão sobre os dados da COVID longa.
 
 → [Voltar ao topo](#topo)
 
@@ -35,15 +34,17 @@ jornalista este que tem dificuldade em achar informações sobre a COVID longa. 
 
 ## :hourglass_flowing_sand:	Entregas de Sprints
 
-|                               Tag                               |  Entrega   |    Status    |
-|:---------------------------------------------------------------:|:----------:|:------------:|
-| [Sprint 1](https://github.com/equipedevo/API_1/releases/tag/V1) | 02/04/2023 | Concluído    |
-| [Sprint 2](./doc/sprint/README_sprint.md)                       | 23/04/2023 | Em andamento |
-| Sprint 3                                                        | 14/05/2023 | Pendente     |
-| Sprint 4                                                        | 04/06/2023 | Pendente     |
+|                          Sprint                          |  Entrega |    Status    | Tag  |
+| :------------------------------------------------------: | :------: | :----------: | :--: |
+| [Sprint 1](./doc/sprint/Sprints%20Anteriores/Sprint1.md) | 02/04/23 | Concluído    | V1.0 |
+| [Sprint 2](./doc/sprint/Sprints%20Anteriores/Sprint2.md) | 23/04/23 | Concluído    | V2.3 |
+| [Sprint 3](./doc/sprint/README_sprint.md)                | 14/05/23 | Em andamento | ---- |
+| --------                                                 | 04/06/23 | Pendente     | ---- |
 
->Após clicar nos links da área Tag você será redirecionado a página da sprint referente. <br/>
->Sprint 1: Descrição, MVP, Backlog e Wireframe
+>Após clicar nos links da área Sprint você será redirecionado a página da sprint referente. Nela você encontrará: <br/>
+>Sprint 1-3: Sobre a Sprint, Backlog, MVP e Tag. <br/>
+>Sprint 1:  Wireframe <br/>
+>Sprint 2 e 3: Como Usar
 
 → [Voltar ao topo](#topo)
 
@@ -68,7 +69,7 @@ Foram usadas na construção do projeto as seguintes ferramentas e linguagens:
 ## :scroll:Backlog
 [Backlog do projeto.](./doc/sprint/BacklogCompleto.md) 
 
-[Backlog da 2ª Sprint.](./doc/sprint/Backlog_sprint.md)
+[Backlog da 3ª Sprint.](./doc/sprint/Backlog_sprint.md)
 
 
 → [Voltar ao topo](#topo)

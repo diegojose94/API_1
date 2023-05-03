@@ -12,25 +12,51 @@ def index():
 def sobre():
     return render_template("sobre.html")
 
-@app.route("/consulta", methods=["GET", "POST"])
+@app.route("/consulta", methods=["GET"])
 def consulta():
+    if request.method != "GET" or not request.args.get("periodo") or not request.args.get("cidade") or not request.args.get("tipoValor") or not request.args.get("tipo") or not request.args.get("subTipo"):
+        return render_template("consulta.html",
+            periodos = FilterData.periodos,
+            cidades = FilterData.cidades,
+            tipoValor = FilterData.tipoValor,
+            tipos = FilterData.tipos,
+            subTipos = FilterData.subTipos)
+    
+    selecPeriodos = request.args.get("periodo").split(",")
+    selecCidades = request.args.get("cidade").split(",")
+    selecTipovalor = request.args.get("tipoValor")
+    selecTipo = request.args.get("tipo")
+    selecSubTipos = request.args.get("subTipo").split(",")
+
+    periodos = FilterData.GetPeriodos(selecPeriodos)
+    cidades = FilterData.GetCidades(selecCidades)
+    tipoValor = FilterData.GetTipoValor(selecTipovalor)["value"]
+    tipo = FilterData.GetTipo(selecTipo)["value"]
+    subTipos = FilterData.GetSubtipos(int(selecTipo), selecSubTipos)
+
+    graficos = []
+
+    for cidade in cidades:
+        paths = []
+        for periodo in periodos:
+            cidadeValue = cidade["value"]
+            path = f"./static/img/grafico_{cidadeValue}_{periodo}.svg"
+            TableToGraph.GroupedBarGraph(
+                csvDir = f"./tables/{tipo}/{tipoValor} {cidadeValue}.csv",
+                title = f"{tipoValor} de {tipo} em {cidadeValue}",
+                barRange = selecSubTipos,
+                lineRange = range(1, 13, 1),
+                xLabel = periodo,
+                yLabel = f"{tipoValor} de {tipo}",
+                figDir = path,
+                divisor = 1)
+            paths.append(path)
+        graficos.append({ "cidade": cidade["name"], "paths": paths })
+        
     return render_template("consulta.html",
         periodos = FilterData.periodos,
         cidades = FilterData.cidades,
+        tipoValor = FilterData.tipoValor,
         tipos = FilterData.tipos,
-        subtipos = FilterData.subtipos)
-
-@app.route("/atualizarConsulta", methods=["GET", "POST"])
-def atualizarConsulta():
-    selecPeriodos = request.form.getlist("periodo")
-    selecCidades = request.form.getlist("cidade")
-    selecTipo = request.form.get("tipo")
-    selecSubtipos = request.form.getlist("subtipo")
-    TableToGraph.TableToGraph("./tables/Procedimentos/quantidade Jacarei.csv", "Quantidade de procedimentos em Jacareí", 4, range(1, 13, 1), "Mês", "Quantidade", "./static/img/grafico.svg")
-    
-    return consulta()
-    #render_template("consulta.html",
-    #    periodos = FilterData.periodos,
-    #    cidades = FilterData.cidades,
-    #    tipos = FilterData.tipos,
-    #    subtipos = FilterData.subtipos)
+        subTipos = FilterData.subTipos,
+        graficos = graficos)
