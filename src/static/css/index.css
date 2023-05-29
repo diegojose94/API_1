@@ -1,41 +1,6 @@
-#bem-vindo{
-    display: flex;
-
-    align-items: center;
-
-    margin-top: 10px;
+.centerImg img{
+    width: 100%;
 }
-
-.conteudo{
-    padding-top: 0px;
-    padding-left: 50px;
-}
-
-.title{
-    font-size: 50px;
-}
-
-h4{
-    font-size: 30px;
+.subtitle{
     font-weight: 300;
-}
-
-.btn{
-    background-color:#00f;
-    color: #fff;
-    padding: .5em;
-    border: 1px solid #00f;
-    border-radius: 10px;
-}
-
-.btn:hover{
-    background-color: #fff;
-    color: #000;
-    border-color: #00f;
-    border: 1px solid #00f;
-}
-
-.img-fluid{
-    max-width: 100%;
-    height: auto;
 }

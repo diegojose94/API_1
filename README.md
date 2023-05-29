@@ -16,17 +16,23 @@
 
 # :bulb: Sobre o Projeto
     
-Conforme a demanda do 1º API (Aprendizagem por Projetos Integrados) (Abordando as disciplinas: "Design Digital", "Desenvolvimento Web I" e "Engenharia de Software"), foi realizado um aplicação web que demonstra dados do <a href="https://datasus.saude.gov.br/informacoes-de-saude-tabnet/r"> TABNET (DATASUS)</a>, com o objetivo de comprovar se existe ou não COVID longa.
-> _API se trata de um projeto  submetido a metodologia de ensino em implantação na Fatec São José dos Campos, desde o Segundo Semestre de 2019, do qual os alunos formam equipes baseadas na metodologia SCRUM, tendo um aluno como master, Product Owner e os integrates restantes dev team._ <br><br>
+Conforme a demanda da 1º API (Aprendizagem por Projetos Integrados) (Abordando as disciplinas: "Design Digital", "Desenvolvimento Web I" e "Engenharia de Software"), foi realizado um aplicação web que demonstra dados do <a href="https://datasus.saude.gov.br/informacoes-de-saude-tabnet/r"> TABNET (DATASUS)</a>, com o objetivo de exibir algumas consequências ocasionadas pela COVID longa.
+> _API se trata de um projeto  submetido a metodologia de ensino em implantação na Fatec São José dos Campos, desde o Segundo Semestre de 2019, do qual os alunos formam equipes baseadas na metodologia SCRUM, tendo um aluno como master, um Product Owner e o restante dos integrates como dev team._
+
+<br>
+
+### Se interessou pelo projeto? Então da só uma <a href="https://github.com/equipedevo/API_1/blob/main/doc/sprint/Sprints%20Anteriores/Sprint3.md#sobre-a-sprint"> olhadinha</a> :movie_camera: em como ele está ficando!
+
 > **Status do Projeto: Em andamento :warning:** 
 
 → [Voltar ao topo](#topo)
+
 
 <span id="visão_do_produto">
 
 # :eye: Visão do Produto
 
-Para jornalistas que desejam ver os efeitos das sequelas da COVID-19 e encontram dificuldades em achar informações sobre a COVID longa. O CICOVALE (Central Informativa de COVID longa do Vale do Paraíba) é um site que possibilita ver e comparar dados sobre o impacto da COVID longa através de fontes públicas do Sistema Único de Saúde(SUS). Diferentemente de outras pesquisas relacionadas, o nosso produto possibilita a facilidade e interatividade da visão sobre os dados da COVID longa.
+Para jornalistas que desejam ver os efeitos das sequelas da COVID-19 e encontram dificuldades em achar informações sobre a COVID longa. O CICOVALE (Central Informativa de COVID longa do Vale do Paraíba) é um site que possibilita ver e comparar dados sobre o impacto da COVID longa através de fontes públicas do Sistema Único de Saúde (SUS). Diferentemente de outras pesquisas relacionadas, o nosso produto possibilita a facilidade e interatividade da visão sobre os dados da COVID longa.
 
 → [Voltar ao topo](#topo)
 
@@ -38,13 +44,13 @@ Para jornalistas que desejam ver os efeitos das sequelas da COVID-19 e encontram
 | :------------------------------------------------------: | :------: | :----------: | :--: |
 | [Sprint 1](./doc/sprint/Sprints%20Anteriores/Sprint1.md) | 02/04/23 | Concluído    | V1.0 |
 | [Sprint 2](./doc/sprint/Sprints%20Anteriores/Sprint2.md) | 23/04/23 | Concluído    | V2.3 |
-| [Sprint 3](./doc/sprint/README_sprint.md)                | 14/05/23 | Em andamento | ---- |
-| --------                                                 | 04/06/23 | Pendente     | ---- |
+| [Sprint 3](./doc/sprint/Sprints%20Anteriores/Sprint3.md) | 14/05/23 | Concluído    | V3.0 |
+| [Sprint 4](./doc/sprint/README_sprint.md)                | 04/06/23 | Em andamento | ---- |
 
 >Após clicar nos links da área Sprint você será redirecionado a página da sprint referente. Nela você encontrará: <br/>
 >Sprint 1-3: Sobre a Sprint, Backlog, MVP e Tag. <br/>
 >Sprint 1:  Wireframe <br/>
->Sprint 2 e 3: Como Usar
+>Sprint 2-4: Como Usar
 
 → [Voltar ao topo](#topo)
 
@@ -67,9 +73,9 @@ Foram usadas na construção do projeto as seguintes ferramentas e linguagens:
 <span id="backLog">
 
 ## :scroll:Backlog
-[Backlog do projeto.](./doc/sprint/BacklogCompleto.md) 
+[Backlog completo do projeto.](./doc/sprint/BacklogCompleto.md) 
 
-[Backlog da 3ª Sprint.](./doc/sprint/Backlog_sprint.md)
+[Backlog da 4ª Sprint.](./doc/sprint/Backlog_sprint.md)
 
 
 → [Voltar ao topo](#topo)
@@ -78,7 +84,7 @@ Foram usadas na construção do projeto as seguintes ferramentas e linguagens:
 
 ## :computer:Como executar nosso projeto
 
-Para executar nosso projeto, entre no readme da pasta `src` e siga os passos lá indicados, para isso, basta que você [Clique aqui](https://github.com/equipedevo/API_1/tree/main/src)
+Para executar nosso projeto, entre no [readme](https://github.com/equipedevo/API_1/tree/main/src) da pasta `src` e siga os passos lá indicados.
 
 → [Voltar ao topo](#topo)
 

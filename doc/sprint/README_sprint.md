@@ -1,22 +1,22 @@
 <br id="topo">
 
-# 3ª Sprint
+# 4ª Sprint
 
-## [Ir para a tela de início](./../../../README.md)
+## [Ir para a tela de início](./../../README.md)
 
 ## :mag_right: Índice
 
 <!-- * [Sobre a Sprint](#SobreASprint) -->
 * [Como Usar](#comoUsar)
 * [Backlog](#backlog)
-<!-- * [MVP](#MVP) -->
-<!-- * [Tag](#tag) -->
+<!-- * [MVP](#MVP)
+* [Tag](#tag) -->
 
-<!-- <span id="SobreASprint"></span>
+<span id="SobreASprint"></span>
 
-# Sobre a Sprint
-Nesta segunda entrega, foi combinado juntamente do cliente, a priorização da interface do projeto.
-<img src="https://github.com/equipedevo/API_1/blob/main/doc/sprint/Site_sprint2.gif?raw=true"></br>
+<!-- # Sobre a Sprint
+Nesta terceira entrega, foi combinado juntamente do cliente, a priorização da análise de dados e criação de gráficos através do filtro.
+<img src="https://github.com/equipedevo/API_1/blob/main/doc/sprint/Site_sprint3.gif?raw=true"></br>
 
 → [Voltar ao topo](#topo)</br> -->
 
@@ -36,20 +36,27 @@ Nesta segunda entrega, foi combinado juntamente do cliente, a priorização da i
 <details>
   <summary><b>Clonando o repositório:</b></summary>
 
- 1. Clone o repositório atual através do git no seu cmd, utilize o comando:
-  ```
-  git clone https://github.com/equipedevo/API_1
-  ```
+1. Para clonar (baixar) o projeto e utiliza-lo no seu computador, siga os seguintes passos:
 
- 2. Ainda no cmd vá para a pasta src:
-  ```
-  cd API_1/src/
-  ```
+```
+Crie uma pasta onde deseja clonar o projeto e abra-a
+Clique no link do diretório ou utilize o comando "CTRL+L" no seu teclado
+Digite "cmd" (sem aspas) e pressione "Enter"
+
+Um prompt de comando (cmd) irá abrir, copie o comando todo abaixo e de "Enter"
+git clone https://github.com/equipedevo/API_1
+``` 
+
+2. Ainda no cmd, você precisará ir para a pasta src, para isso, execute os seguintes comandos, linha por linha:
+```
+cd API_1/
+cd src/
+```
 </details>
 
 
 <details>
-<summary><b>Rodando o projeto:</b></summary> 
+<summary><b>Iniciando o ambiente virtual para poder usar o projeto através do navegador:</b></summary> 
 
  1. Após entrar na pasta src, digite os seguintes comandos:
   ```
@@ -59,11 +66,12 @@ Nesta segunda entrega, foi combinado juntamente do cliente, a priorização da i
   flask run
   ```
 
- 2. Após realizar o comando flask run, clique no link que ele te dá no cmd, ou então simplesmente acesse este: <a href="http://127.0.0.1:5000">http://127.0.0.1:5000</a>
+ 2. Após realizar o comando "flask run", clique no link que aparece no cmd segurando o botão "CTRL" no seu teclado, ou então simplesmente acesse este link: <a href="http://127.0.0.1:5000">http://127.0.0.1:5000</a>
 
  3. Após finalizar o uso do nosso site, para sair do ambiente virtual, execute o seguinte comando:
   ```
-  deactivate
+  CTRL+C (teclado)
+  (digite) deactivate
   ```
 
 </details>
@@ -74,15 +82,15 @@ Nesta segunda entrega, foi combinado juntamente do cliente, a priorização da i
 
 # Backlog
 
-[Clique aqui](./Backlog_sprint.md) para acessar o backlog da segunda sprint.
+[Clique aqui](Backlog_sprint.md) para acessar o backlog da quarta sprint.
 
-→ [Voltar ao topo](#topo)
+<!-- → [Voltar ao topo](#topo)
 
-<!-- <span id="MVP"></span>
+<span id="MVP"></span>
 
 # :triangular_flag_on_post: Minimum Viable Product (MVP)
 
-O mínimo produto viável desta sprint é um site já navegável, porém com priorização apenas na programação das telas, sem necessariamente o uso das raspagens de dados, dos gráficos e  filtros que futuramente serão colocados.<br> A base para o MVP é a coerência entre o site programado e o nosso [Protótipo](./../../prototipo/Prot%C3%B3tipo.gif), realizado na Sprint 1.
+O mínimo produto viável desta sprint é um filtro funcional que mostre os dados de maneira clara e objetiva.
 
 <details>
   <summary><b>Explicação das Tecnologias:</b></summary>
@@ -92,14 +100,14 @@ O mínimo produto viável desta sprint é um site já navegável, porém com pri
   3. <a href="https://flask.palletsprojects.com/en/2.2.x/">Flask</a>: Utilizado para fazer as rotas do nosso site e facilitar manutenção do mesmo, já que fazemos o uso do "base.html", onde está incluído tudo que será equivalente em todas as páginas do site<br>
   4. <a href="https://www.w3schools.com/js/default.asp">JavaScript</a>: Utilizado para as funcionalidades do filtro da página de consultas<br>
   5. <a href="https://www.w3schools.com/python/default.asp">Python</a>: Utilizado para fazer a construção dos gráficos através de arquivos .csv já criados
-</details>
+</details> 
 
 <span id="tag"></span>
 
 # Tag
 
-A última versão da 2ªSprint foi [V2.3](https://github.com/equipedevo/API_1/releases/tag/V2.3)
+A última versão da 3ªSprint foi a [V3](https://github.com/equipedevo/API_1/releases/tag/V3.0).-->
 
 → [Voltar ao topo](#topo)
- -->
-## [Ir para a tela de início](./../../../README.md)
+
+## [Ir para a tela de início](https://github.com/equipedevo/API_1/)
