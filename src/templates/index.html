@@ -20,4 +20,16 @@
         </div>
         <div class="right"></div>
     </div>
+    {% if graficos %}
+    <div id="graficos-db-titulo">
+        <h1>Opções mais consultadas</h1>
+    </div>
+    <div class="flex" id="graficos-db">
+        <div class="left"></div>
+            {% for grafico in graficos %}
+                <img src="{{ grafico }}">
+            {% endfor %}
+        <div class="right"></div>
+    </div>
+    {% endif %}
 {% endblock %}

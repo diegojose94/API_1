@@ -26,9 +26,8 @@ tipos = [
 
 subTipos = [
     [
-        { "name": "consultas", "value": "Total" },
-        { "name": "consultas", "value": "Serviços hospitalares" },
-        { "name": "consultas", "value": "Serviços profissionais" }
+        { "name": "consultas", "value": "Consultas médicas/outros profissionaisde nivel superior"},
+        { "name": "consultas", "value": "Consulta/Atendimento ás urgências (em geral)"},
     ],
     [
         # { "name": "internacoes", "value": "CID I - HIV" },
@@ -68,13 +67,14 @@ subTipos = [
         { "name": "procedimentos", "value": "Procedimentos cirúrgicos" }
     ],
     [
-        # { "name": "tratamentos", "value": "INFORMAÇÃO NÃO DISPONIVEL" },
-        # { "name": "tratamentos", "value": "INFORMAÇÃO NÃO DISPONIVEL" },
-        # { "name": "tratamentos", "value": "INFORMAÇÃO NÃO DISPONIVEL" }
+        { "name": "tratamentos", "value": "Aparelho respiratório"},
+        { "name": "tratamentos", "value": "Tratamento de doenças infecciosas e parasitárias"},
+        { "name": "tratamentos", "value": "Traqueia e brônquios"},
+        { "name": "tratamentos", "value": "Pulmão"},
     ],
     [
-        { "name": "medicamentos", "value": "IMUNOGLOBULINA ANTI-RHO (D) (FRASCO AMPOLA DE 2 ML E 1.250 UI)" },
-        { "name": "medicamentos", "value": "IMUNOGLOBULINA HUMANA 1,0 G INJETAVEL (POR FRASCO)" },
+        { "name": "medicamentos", "value": "IIMUNOGLOBULINA ANTI-RHO (D) (FRASCO AMPOLA DE 2 ML E 1.250 UI)" },
+        { "name": "medicamentos", "value": "IMUNOGLOBULINA HUMANA 1.0 G INJETAVEL (POR FRASCO)" },
         { "name": "medicamentos", "value": "SURFACTANTE FRASCO-AMPOLA" },
         { "name": "medicamentos", "value": "ALBUMINA HUMANA 20 POR CENTO (FRASCO-AMPOLA DE 50 ML)" }
     ]

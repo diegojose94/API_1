@@ -6,75 +6,24 @@
 
 ## :mag_right: Índice
 
-<!-- * [Sobre a Sprint](#SobreASprint) -->
+* [Sobre a Sprint](#SobreASprint)
 * [Como Usar](#comoUsar)
 * [Backlog](#backlog)
-<!-- * [MVP](#MVP)
-* [Tag](#tag) -->
+* [MVP](#MVP)
+* [Tag](#tag)
 
 <span id="SobreASprint"></span>
 
-<!-- # Sobre a Sprint
-Nesta terceira entrega, foi combinado juntamente do cliente, a priorização da análise de dados e criação de gráficos através do filtro.
-<img src="https://github.com/equipedevo/API_1/blob/main/doc/sprint/Site_sprint3.gif?raw=true"></br>
+# Sobre a Sprint
+Nesta última entrega, foi combinado juntamente do cliente, a finalização do projeto, estando o mesmo responsivo, com seus dados verídicos e com uma área que contenha os filtros mais utilizados.
+<img src="https://github.com/equipedevo/API_1/blob/main/doc/sprint/Site_final.gif?raw=true">
 
-→ [Voltar ao topo](#topo)</br> -->
+→ [Voltar ao topo](#topo)</br>
 
 <span id="comoUsar"></span>
 
 # :wrench: Como Usar
-<h3>Para garantir o sucesso na utilização de nosso sistema, aqui vai uma lista das tecnologias necessárias para realizar os próximos passos:</h3>
-
-<details>
-  <summary><b>O que será necessário:</b></summary>
-
-  1. <a href="https://git-scm.com/downloads">Git</a> Precisaremos do git para realizarmos a clonagem do nosso repositório do github.
-
-  2. <a href="https://www.python.org/downloads">Python</a> Recomendamos que você instale uma versão superior à 3.6, nós particularmente utilizamos a 3.11, mas qualquer uma a partir do 3.7 irá funcionar, não esqueça de na hora da instalação, marcar a opção da instalação do pip, pois precisaremos dele para o ambiente virtual.
-</details>
-
-<details>
-  <summary><b>Clonando o repositório:</b></summary>
-
-1. Para clonar (baixar) o projeto e utiliza-lo no seu computador, siga os seguintes passos:
-
-```
-Crie uma pasta onde deseja clonar o projeto e abra-a
-Clique no link do diretório ou utilize o comando "CTRL+L" no seu teclado
-Digite "cmd" (sem aspas) e pressione "Enter"
-
-Um prompt de comando (cmd) irá abrir, copie o comando todo abaixo e de "Enter"
-git clone https://github.com/equipedevo/API_1
-``` 
-
-2. Ainda no cmd, você precisará ir para a pasta src, para isso, execute os seguintes comandos, linha por linha:
-```
-cd API_1/
-cd src/
-```
-</details>
-
-
-<details>
-<summary><b>Iniciando o ambiente virtual para poder usar o projeto através do navegador:</b></summary> 
-
- 1. Após entrar na pasta src, digite os seguintes comandos:
-  ```
-  python -m venv venv
-  .\venv\Scripts\activate
-  pip install -r requirements.txt
-  flask run
-  ```
-
- 2. Após realizar o comando "flask run", clique no link que aparece no cmd segurando o botão "CTRL" no seu teclado, ou então simplesmente acesse este link: <a href="http://127.0.0.1:5000">http://127.0.0.1:5000</a>
-
- 3. Após finalizar o uso do nosso site, para sair do ambiente virtual, execute o seguinte comando:
-  ```
-  CTRL+C (teclado)
-  (digite) deactivate
-  ```
-
-</details>
+Para executar nosso projeto, entre no [readme](https://github.com/equipedevo/API_1/tree/main/src) da pasta `src` e siga os passos lá indicados.
 
 → [Voltar ao topo](#topo)
 
@@ -84,13 +33,13 @@ cd src/
 
 [Clique aqui](Backlog_sprint.md) para acessar o backlog da quarta sprint.
 
-<!-- → [Voltar ao topo](#topo)
+→ [Voltar ao topo](#topo)
 
 <span id="MVP"></span>
 
 # :triangular_flag_on_post: Minimum Viable Product (MVP)
 
-O mínimo produto viável desta sprint é um filtro funcional que mostre os dados de maneira clara e objetiva.
+O mínimo produto viável desta sprint é atender a demanda de responsividade, juntamente com uma área contendo os filtros mais utilizados na página consultar.
 
 <details>
   <summary><b>Explicação das Tecnologias:</b></summary>
@@ -100,13 +49,14 @@ O mínimo produto viável desta sprint é um filtro funcional que mostre os dado
   3. <a href="https://flask.palletsprojects.com/en/2.2.x/">Flask</a>: Utilizado para fazer as rotas do nosso site e facilitar manutenção do mesmo, já que fazemos o uso do "base.html", onde está incluído tudo que será equivalente em todas as páginas do site<br>
   4. <a href="https://www.w3schools.com/js/default.asp">JavaScript</a>: Utilizado para as funcionalidades do filtro da página de consultas<br>
   5. <a href="https://www.w3schools.com/python/default.asp">Python</a>: Utilizado para fazer a construção dos gráficos através de arquivos .csv já criados
-</details> 
+  6. <a href="https://www.w3schools.com/sql/">SQL</a>: Utilizado para a criação e manutenção do banco de dados, especificamente para guardar o ranking dos filtros mais pesquisados no site
+</details>
 
 <span id="tag"></span>
 
 # Tag
 
-A última versão da 3ªSprint foi a [V3](https://github.com/equipedevo/API_1/releases/tag/V3.0).-->
+A última versão da 4ªSprint foi a [V4.2](https://github.com/equipedevo/API_1/releases/tag/V4.2).
 
 → [Voltar ao topo](#topo)
 
